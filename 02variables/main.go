@@ -9,9 +9,9 @@ const LoginToken string = "1eff4rwfss#f"
 // in same folder as of now
 
 func main() {
-	var username string= "Prasad Patil";
+	var username string = "Prasad Patil"
 
-	fmt.Println(username) 
+	fmt.Println(username)
 	fmt.Printf("Variable is of type: %T \n", username)
 
 	// below is how we go for boolean data type
@@ -25,6 +25,17 @@ func main() {
 		-float32
 		-float64
 	*/
+
+	//below syntax is also ok because
+	//lexer got your back :)
+
+	var name = "prasad"
+	fmt.Println(name)
+
+	// below syntax is also allowed but not outside of any method
+
+	any_type := 1000
+	fmt.Println(any_type)
 
 	fmt.Println(LoginToken)
 }
